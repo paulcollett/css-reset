@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run build && serve ./",
+    "build": "node-sass app.scss app.css"
+  },
+  "devDependencies": {
+    "node-sass": "^4.8.3"
+  }
+}
